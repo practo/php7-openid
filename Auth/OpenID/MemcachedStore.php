@@ -74,13 +74,11 @@ class Auth_OpenID_MemcachedStore extends Auth_OpenID_OpenIDStore {
         $this->connection->set(
             $serverKey,
             $serverAssociations,
-            $this->compress
         );
         // save association itself
         $this->connection->set(
             $associationKey,
-            $association, 
-            $this->compress, 
+            $association,
             $association->issued + $association->lifetime);
     }
 
@@ -175,8 +173,7 @@ class Auth_OpenID_MemcachedStore extends Auth_OpenID_OpenIDStore {
         // otherwise adds nonce
         return $this->connection->add(
             'openid_nonce_' . sha1($server_url) . '_' . sha1($salt), 
-            1, // any value here 
-            $this->compress, 
+            1, // any value here
             $Auth_OpenID_SKEW);
     }
     
