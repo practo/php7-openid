@@ -73,7 +73,7 @@ class Auth_OpenID_MemcachedStore extends Auth_OpenID_OpenIDStore {
         // save associations' keys list 
         $this->connection->set(
             $serverKey,
-            $serverAssociations,
+            $serverAssociations
         );
         // save association itself
         $this->connection->set(
