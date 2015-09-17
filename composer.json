@@ -17,6 +17,12 @@
         "ext-curl": "*",
         "ext-dom": "*"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/nandanprac/php-openid"
+        }
+    ],
     "autoload": {
         "classmap": ["Auth"]
     },
