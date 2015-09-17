@@ -1,6 +1,6 @@
 {
     "name": "nandanprac/php-openid",
-    "version": "1.0.0",
+    "version": "2.3.1",
     "description": "OpenID library for PHP5",
     "keywords": ["openid", "authentication", "yadis", "auth"],
     "license": "Apache-2.0",
