@@ -1,10 +1,10 @@
 {
-    "name": "nandanprac/php-openid",
+    "name": "practo/php7-openid",
     "version": "2.3.1",
     "description": "OpenID library for PHP5",
     "keywords": ["openid", "authentication", "yadis", "auth"],
     "license": "Apache-2.0",
-    "homepage": "http://github.com/nandanprac/php-openid",
+    "homepage": "http://github.com/practo/php7-openid",
     "authors": [
         {
             "name": "JanRain Inc.",
@@ -20,7 +20,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/nandanprac/php-openid"
+            "url": "https://github.com/practo/php7-openid"
         }
     ],
     "autoload": {
