@@ -1,7 +1,7 @@
 {
     "name": "practo/php7-openid",
     "version": "2.3.2",
-    "description": "OpenID library for PHP5",
+    "description": "OpenID library for PHP5 & PHP7",
     "keywords": ["openid", "authentication", "yadis", "auth"],
     "license": "Apache-2.0",
     "homepage": "http://github.com/practo/php7-openid",
